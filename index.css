@@ -322,27 +322,27 @@ background-color:#f1ebde;
 
 @font-face {
   font-family: 'Fivo Reg';
-  src: url('fonts/FivoSansModern-Regular.otf') format('otf');
+  src: url('./fonts/FivoSansModern-Regular.otf') format('opentype');
 }
 
 @font-face {
   font-family: 'Fivo Bold';
-  src: url(fonts/FivoSansModern-Bold.otf) format('otf');
+  src: url(fonts/FivoSansModern-Bold.otf) format('opentype');
 }
 
 @font-face {
   font-family: 'NB Akademie Reg';
-  src: url(fonts/nb_akademie_std_regular.ttf) format('ttf');
+  src: url(fonts/nb_akademie_std_regular.ttf) format('truetype');
 }
 
 @font-face {
   font-family: 'NB Akademie Med';
-  src: url(fonts/nb_akademie_std_medium.ttf) format('ttf');
+  src: url(fonts/nb_akademie_std_medium.ttf) format('truetype');
 }
 
 @font-face {
   font-family: 'NB Akademie Bold';
-  src: url(fonts/nb_akademie_std_bold.ttf) format('ttf');
+  src: url(fonts/nb_akademie_std_bold.ttf) format('truetype');
 }
 
 
