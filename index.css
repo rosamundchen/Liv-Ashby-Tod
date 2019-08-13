@@ -1,0 +1,347 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+html,body {
+    height: 100%;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  min-height: 100%;
+background-color:#f1ebde;
+}
+
+* {cursor: url('liv-cursor.png'), default;}
+
+
+/********************** HEADER **********************/
+
+.head1 {
+    position: fixed;
+    font-family: "Fivo Reg";
+    padding: 20px 0px 20px 20px;
+    width: 48%;
+    float: left;
+    display: block;
+    font-size: 48px;
+    font-weight: 100;
+    z-index: 100;
+}
+
+.head1 a {
+    text-decoration: none;
+    color: #C47949;
+    transition: .8s ease;
+}
+
+.head1 a:hover {
+    color: #d8cab2;
+    transition: 1.5s ease;
+}
+
+.head2 {
+    position: fixed;
+    width: 50%;
+    float: right;
+    display: block;
+    margin-left: 50%;
+    height: 300px;
+    padding: 20px 20px 0px 0px;
+    font-family: "NB akademie Reg", sans-serif;
+    font-size: 18px;
+    line-height: 130%;
+    color: #C47949;
+    z-index: 3;
+}
+
+.about {
+    text-decoration: underline;
+    padding-bottom: 15px;
+    pointer-events: none;
+}
+
+.contact {
+    text-decoration: underline;
+    padding-bottom: 15px;
+    pointer-events: none;
+}
+
+.description1 {
+    padding-bottom: 50px;
+    pointer-events:none;
+}
+
+.description2 {
+    padding-bottom: 50px;
+}
+
+.description2 a {
+    text-decoration: none;
+    color: #C47949;
+    transition: .8s ease;
+}
+
+.description2 a:hover{
+    color: d8cab2;
+    transition: 1.5s ease;
+    cursor:pointer;
+}
+
+.number {
+    pointer-events: none;
+}
+
+::selection {
+  background: transparent;
+}
+
+
+/********************** IMAGE 1 **********************/
+
+.container {
+    width: 100%;
+    height: auto;
+    margin-top: 350px;
+    position: absolute;
+    display: inline-block;
+    z-index: 9;
+    background-color:#f1ebde;
+}
+
+.container-mobile {
+    display: none;
+}
+
+.wrapper1 {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+}
+
+
+.img1 {
+    width: 50%;
+    float: right;
+}
+
+.overlay1 {
+    width: 50%;
+    float: right;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    transform: translate(50%, -0%);
+    opacity: 0;
+    transition: 2s;
+}
+
+.overlay1:hover {
+    opacity: 1;
+    transition: 1.2s;
+}
+
+/********************** IMAGE 2 **********************/
+
+.wrapper2 {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    z-index: 9;
+}
+
+
+.img2 {
+    width: 50%;
+    float: left;
+}
+
+.overlay2 {
+    width: 50%;
+    float: left;
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    transform: translate(-100%, 0%);
+    opacity: 0;
+    transition: 2s;
+}
+
+.overlay2:hover {
+    opacity: 1;
+    transition: 1.2s;
+}
+
+
+/********************** IMAGE 3 **********************/
+
+.wrapper3 {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    z-index: 9;
+}
+
+
+.img3 {
+    width: 50%;
+    float: right;
+}
+
+.overlay3 {
+    width: 50%;
+    float: right;
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    transform: translate(100%, 0%);
+    opacity: 0;
+    transition: 2s;
+}
+
+.overlay3:hover {
+    opacity: 1;
+    transition: 1.2s;
+}
+
+
+/********************** IMAGE 4 **********************/
+
+.wrapper4 {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    z-index: 9;
+    margin-bottom: 30px;
+}
+
+
+.img4 {
+    width: 50%;
+    float: left;
+}
+
+.overlay4 {
+    width: 50%;
+    float: left;
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    transform: translate(-100%, 0%);
+    opacity: 0;
+    transition: 2s;
+}
+
+.overlay4:hover {
+    opacity: 1;
+    transition: 1.2s;
+}
+
+/********************** FOOTER **********************/
+.credit {
+    position: relative;
+    display: block;
+    z-index: 9;
+    font-family: "NB Akademie Reg", sans-serif;
+    font-size: 12px;
+    color: #C47949;
+    padding: 20px 20px 20px 20px;
+    pointer-events:auto;
+    width: 500px;
+    float: left;
+}
+
+.credit a{
+    text-decoration: none;
+    color: #C47949;
+    font-family: "NB Akademie Bold", sans-serif;
+    font-weight: 600;
+}
+
+.credit a:hover{
+    color: #d8cab2;
+    cursor:pointer;
+    transition: .7s ease;
+}
+
+
+.footer {
+    position:fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    padding: 20px 20px 15px 20px;
+    color: #C47949;
+    z-index: 9;
+    float: right; 
+    width: 500px;
+}
+
+.btn {
+    float: right; 
+    font-family: "NB Akademie Bold", sans-serif;
+    font-size: 17px;   
+    text-transform: uppercase;
+}
+
+.btn a{
+    color: #C47949;
+    text-decoration: none;
+}
+
+.btn a:hover {
+    text-decoration: underline;
+}
+
+
+.credit-mob, .btn-mob {
+    display: none;
+}
+
+/********FONT FACE********/
+
+@font-face {
+  font-family: Fivo Reg;
+  src: url(Fonts/FivoSansModern-Regular.otf);
+}
+
+@font-face {
+  font-family: Fivo Bold;
+  src: url(Fonts/FivoSansModern-Bold.otf);
+}
+
+@font-face {
+  font-family: NB Akademie Reg;
+  src: url(Fonts/nb_akademie_std_regular.ttf);
+}
+
+@font-face {
+  font-family: NB Akademie Med;
+  src: url(Fonts/nb_akademie_std_medium.ttf);
+}
+
+@font-face {
+  font-family: NB Akademie Bold;
+  src: url(Fonts/nb_akademie_std_bold.ttf);
+}
+
+
