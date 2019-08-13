@@ -30,7 +30,7 @@ background-color:#f1ebde;
 
 .head1 {
     position: fixed;
-    font-family: "Fivo Reg";
+    font-family: "Fivo Reg", sans-serif;
     padding: 20px 0px 20px 20px;
     width: 48%;
     float: left;
