@@ -321,7 +321,7 @@ background-color:#f1ebde;
 
 @font-face {
   font-family: Fivo Reg;
-  src: url(Fonts/FivoSansModern-Regular.otf);
+  src: url('Fonts/FivoSansModern-Regular.otf') format('opentype');
 }
 
 @font-face {
