@@ -320,27 +320,27 @@ background-color:#f1ebde;
 /********FONT FACE********/
 
 @font-face {
-  font-family: Fivo Reg;
+  font-family: 'Fivo Reg';
   src: url('Fonts/FivoSansModern-Regular.otf') format('opentype');
 }
 
 @font-face {
-  font-family: Fivo Bold;
+  font-family: 'Fivo Bold';
   src: url(Fonts/FivoSansModern-Bold.otf);
 }
 
 @font-face {
-  font-family: NB Akademie Reg;
+  font-family: 'NB Akademie Reg';
   src: url(Fonts/nb_akademie_std_regular.ttf);
 }
 
 @font-face {
-  font-family: NB Akademie Med;
+  font-family: 'NB Akademie Med';
   src: url(Fonts/nb_akademie_std_medium.ttf);
 }
 
 @font-face {
-  font-family: NB Akademie Bold;
+  font-family: 'NB Akademie Bold';
   src: url(Fonts/nb_akademie_std_bold.ttf);
 }
 
