@@ -58,7 +58,7 @@ background-color:#f1ebde;
     display: block;
     margin-left: 50%;
     height: 300px;
-    padding: 20px 20px 0px 0px;
+    padding: 50px 20px 0px 0px;
     font-family: "NB akademie Reg", sans-serif;
     font-size: 18px;
     line-height: 130%;
@@ -66,25 +66,25 @@ background-color:#f1ebde;
     z-index: 3;
 }
 
-.about {
+.about, .contact {
     text-decoration: underline;
     padding-bottom: 15px;
     pointer-events: none;
-}
-
-.contact {
-    text-decoration: underline;
-    padding-bottom: 15px;
-    pointer-events: none;
+    float: left;
+    width: 17%;
 }
 
 .description1 {
     padding-bottom: 50px;
     pointer-events:none;
+    float: left;
+    width: 70%;
 }
 
 .description2 {
     padding-bottom: 50px;
+    float: left;
+    width: 70%;
 }
 
 .description2 a {
@@ -344,5 +344,4 @@ background-color:#f1ebde;
   font-family: 'NB Akademie Bold';
   src: url(fonts/nb_akademie_std_bold.ttf) format('truetype');
 }
-
 
