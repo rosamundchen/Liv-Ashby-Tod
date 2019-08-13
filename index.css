@@ -30,13 +30,14 @@ background-color:#f1ebde;
 
 .head1 {
     position: fixed;
-    font-family: "Fivo Reg", sans-serif;
     padding: 20px 0px 20px 20px;
     width: 48%;
     float: left;
     display: block;
-    font-size: 48px;
+    font-family: "Fivo Reg", sans-serif;
+    font-size: 50px;
     font-weight: 100;
+    text-transform: uppercase;
     z-index: 100;
 }
 
@@ -58,7 +59,7 @@ background-color:#f1ebde;
     display: block;
     margin-left: 50%;
     height: 300px;
-    padding: 50px 20px 0px 0px;
+    padding: 40px 20px 0px 0px;
     font-family: "NB akademie Reg", sans-serif;
     font-size: 18px;
     line-height: 130%;
