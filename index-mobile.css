@@ -36,7 +36,7 @@ html,body {
         display: inline-block;
         position: relative;
         width: 100%;
-        margin-top: 415px;
+        margin-top: 435px;
         padding-top: 0px;
         background-color: #f1ebde;
         z-index: 9;
@@ -45,7 +45,6 @@ html,body {
     .photo1, .photo2, .photo3, .photo4 {
         width: 100%;
         padding-bottom: 20px;
-
     }
     
 /********************** FOOTER **********************/
@@ -68,7 +67,7 @@ html,body {
     display: block;
     font-family: 'NB Akademie Reg', sans-serif;
     font-size: 11.5px;
-    padding-top: 5px;
+    padding-top:;
     width: 75%;
     float: left;
     }
