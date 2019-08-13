@@ -310,6 +310,7 @@ background-color:#f1ebde;
 
 .btn a:hover {
     text-decoration: underline;
+    cursor: pointer;
 }
 
 

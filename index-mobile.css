@@ -27,6 +27,7 @@ html,body {
     }
     
 /********************** IMAGES **********************/
+    
     .container {
         display: none;
     }
@@ -34,10 +35,11 @@ html,body {
     .container-mobile {
         display: inline-block;
         position: relative;
-        z-index: 9;
+        width: 100%;
         margin-top: 415px;
-        background-color: #f1ebde;
         padding-top: 40px;
+        background-color: #f1ebde;
+        z-index: 9;
     }
 
     .photo1, .photo2, .photo3, .photo4 {
@@ -64,7 +66,7 @@ html,body {
 
 .credit-mob {
     display: block;
-    font-family: "NB Akademie Reg", sans-serif;
+    font-family: 'NB Akademie Reg', sans-serif;
     font-size: 11.5px;
     padding-top: 5px;
     width: 62%;
@@ -74,12 +76,17 @@ html,body {
     .credit-mob a {
         text-decoration: none;
         color: #C47949;
-        font-family: "NB Akademie Bold", sans-serif;
+        font-family: 'NB Akademie Bold', sans-serif;
+    }
+    
+    .credit-mob a:hover {
+        color: #d8cab2;
+        cursor: pointer;
     }
     
     .btn-mob {
         display: block;
-        font-family: "NB Akademie Bold", sans-serif;
+        font-family: 'NB Akademie Bold', sans-serif;
         padding-bottom: 8px;
         float: right;
     }
@@ -92,5 +99,4 @@ html,body {
     
     .btn-mob a:hover {
         text-decoration: underline;
-
     }
