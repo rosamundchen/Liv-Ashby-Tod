@@ -15,6 +15,7 @@ html,body {
     font-size: 48px; 
     width: 100%;
     height: auto;
+    padding-top: 30px;
 }
     
     .head2 {
@@ -22,8 +23,18 @@ html,body {
         float: left;
         padding: 20px;
         font-size: 15.5px;
-        top: 100px;
+        top: 170px;
         margin-left: 0px;
+    }
+    
+    .about, .contact {
+        float: left;
+        width: 30%;
+    }
+    
+    .description1, .description2{
+        width:70%;
+        float: inherit;
     }
     
 /********************** IMAGES **********************/
@@ -36,7 +47,7 @@ html,body {
         display: inline-block;
         position: relative;
         width: 100%;
-        margin-top: 435px;
+        margin-top: 495px;
         padding-top: 0px;
         background-color: #f1ebde;
         z-index: 9;
@@ -67,8 +78,9 @@ html,body {
     display: block;
     font-family: 'NB Akademie Reg', sans-serif;
     font-size: 11.5px;
+    line-height: 16px;
     padding-top:;
-    width: 75%;
+    width: 40%;
     float: left;
     }
     
