@@ -30,7 +30,7 @@ background-color:#f1ebde;
 
 .head1 {
     position: fixed;
-    font-family: 'Fivo Reg', sans-serif;
+    font-family: "Fivo Reg", sans-serif;
     padding: 20px 0px 20px 20px;
     width: 48%;
     float: left;
@@ -59,7 +59,7 @@ background-color:#f1ebde;
     margin-left: 50%;
     height: 300px;
     padding: 20px 20px 0px 0px;
-    font-family: 'NB akademie Reg', sans-serif;
+    font-family: "NB akademie Reg", sans-serif;
     font-size: 18px;
     line-height: 130%;
     color: #C47949;
@@ -261,7 +261,7 @@ background-color:#f1ebde;
     position: relative;
     display: block;
     z-index: 9;
-    font-family: 'NB Akademie Reg', sans-serif;
+    font-family: "NB Akademie Reg", sans-serif;
     font-size: 12px;
     color: #C47949;
     padding: 20px 20px 20px 20px;
@@ -273,7 +273,7 @@ background-color:#f1ebde;
 .credit a{
     text-decoration: none;
     color: #C47949;
-    font-family: 'NB Akademie Bold', sans-serif;
+    font-family: "NB Akademie Bold", sans-serif;
     font-weight: 600;
 }
 
@@ -298,7 +298,7 @@ background-color:#f1ebde;
 
 .btn {
     float: right; 
-    font-family: 'NB Akademie Bold', sans-serif;
+    font-family: "NB Akademie Bold", sans-serif;
     font-size: 17px;   
     text-transform: uppercase;
 }
@@ -322,27 +322,27 @@ background-color:#f1ebde;
 
 @font-face {
   font-family: 'Fivo Reg';
-  src: url('Fonts/FivoSansModern-Regular.otf') format('opentype');
+  src: url('Fonts/FivoSansModern-Regular.otf') format('otf');
 }
 
 @font-face {
   font-family: 'Fivo Bold';
-  src: url(Fonts/FivoSansModern-Bold.otf);
+  src: url(Fonts/FivoSansModern-Bold.otf) format('otf');
 }
 
 @font-face {
   font-family: 'NB Akademie Reg';
-  src: url(Fonts/nb_akademie_std_regular.ttf);
+  src: url(Fonts/nb_akademie_std_regular.ttf) format('ttf');
 }
 
 @font-face {
   font-family: 'NB Akademie Med';
-  src: url(Fonts/nb_akademie_std_medium.ttf);
+  src: url(Fonts/nb_akademie_std_medium.ttf) format('ttf');
 }
 
 @font-face {
   font-family: 'NB Akademie Bold';
-  src: url(Fonts/nb_akademie_std_bold.ttf);
+  src: url(Fonts/nb_akademie_std_bold.ttf) format('ttf');
 }
 
 
