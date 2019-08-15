@@ -12,62 +12,157 @@ html,body {
 /********************** HEADER **********************/
 
 .head1 {
-    font-size: 61px; 
-    width: 100%;
-    height: auto;
-    padding-top: 30px;
+    display: none;
 }
     
-    .head2 {
-        width:92%;
-        float: left;
-        padding: 20px;
-        font-size: 15.5px;
-        top: 160px;
-        margin-left: 0px;
+.header-wrapper {
+    display: relative;
+    position: fixed;
+    width: 100%;
+    height: 78px;
+    background-color:;
+}
+    
+.header-mobile {
+    display: block;
+    padding: 20px 20px 20px 20px;
+    z-index: 100;
+    position: fixed;
+    font-family: "Fivo Reg", sans-serif;
+    font-size: 35px;
+    font-weight: 100;
+    text-transform: uppercase;
     }
     
-    .about, .contact {
-        float: left;
-        width: 20%;
+.header-mobile a {
+    color: #C47949;  
+    text-decoration: none;
+}
+    
+.nav {
+    width: 91.5%;
+    height: auto;
+    display: block;
+    float: right;
+    padding: 20px 20px 20px 20px;
+    position: fixed;
+    display: block;
+    z-index: 100;
+    }
+
+
+.nav a {
+    text-decoration: underline;
+    color: #C47949;
+}
+
+    
+    .about-nav {
+        font-family: "NB akademie Reg", sans-serif;
+        font-size: 25px;
+        color: #C47949; 
+        float: right;
     }
     
-    .description1, .description2{
-        width:80%;
-        float: inherit;
+    .contact-nav {
+        font-family: "NB akademie Reg", sans-serif;
+        font-size: 20px;
+        color: #C47949; 
+        float: right;
     }
     
+
 /********************** IMAGES **********************/
     
-    .container {
+.container {
         display: none;
     }
     
-    .container-mobile {
-        display: inline-grid;
-        position: relative;
+.container-mobile {
+        display:inline-block;
         width: 100%;
-        margin-top: 460px;
-        padding-top: 0px;
+        margin-top: 0;
+        padding-top: 140px;
         background-color: #f1ebde;
-        z-index: 5;
+        z-index: 0;
+        overflow: scroll;
+    background-color: ;
     }
-
-    .photo1, .photo2, .photo3, .photo4 {
-        width: 100%;
+    
+    .image-wrapper {
+        height: 100%;
+        overflow: scroll;
         padding-bottom: 20px;
     }
+
+.photo1, .photo2, .photo3, .photo4, .photo5, .photo6 {
+        width: 87%;
+        padding: 20px;
+}
+    
+    
+    
+    
+    
+/********************** ABOUT SECTION **********************/
+
+.content-mobile {
+    display: block;
+    position: relative;
+    width:92%;
+    float: left;
+    margin-top: 10px;
+    padding: 5px 20px 50px 20px;
+    font-size: 15.5px;
+    top: 0px;
+    font-family: "NB akademie Reg", sans-serif;
+    font-size: 15px;
+    line-height: 19px;
+    color: #C47949;
+    }
+    
+#about-mobile {
+    float: left;
+    width: 20%;
+    font-family: "NB akademie Bold", sans-serif;
+    }
+    
+#contact-mobile {
+    float: left;
+    width: 20%;
+    padding-top: 30px;
+    font-family: "NB akademie Bold", sans-serif;
+}
+    
+.description1-mobile {
+    width:80%;
+    float: inherit;
+    }
+    
+.description2-mobile {
+    width:80%;
+    float: inherit;
+    padding-top: 30px;
+}
+    
+.description2-mobile a {
+    text-decoration: none;
+    color: #C47949;
+}
+    
     
 /********************** FOOTER **********************/
     
-.footer {
-    padding: 20px 20px 30px 20px;
+.footer-mobile {
+    padding: 20px 20px 20px 20px;
     height: 20px;
     width: 92%;
+    display: block;
     background-color: #f1ebde;
     position: relative;
     bottom: 0;
-    float: left;
+    float:left;
+    border-top: 0px solid;
 }
 
 .credit, .btn {
@@ -79,9 +174,11 @@ html,body {
     font-family: 'NB Akademie Reg', sans-serif;
     font-size: 11.5px;
     line-height: 16px;
-    padding-top:;
-    width: 50%;
+    padding-left:91px;
+    width: 48%;
     float: left;
+        color: #C47949;
+
     }
     
     .credit-mob a {
@@ -97,9 +194,18 @@ html,body {
     
     .btn-mob {
         display: block;
+        width: 14%;
+        height: 85%;
         font-family: 'NB Akademie Bold', sans-serif;
-        padding-bottom: 8px;
+        font-size: 14px;
+        letter-spacing: 0.5px;
+        text-align: center;
+        padding: 8px;
         float: right;
+        border: 1.5px solid;
+        border-radius: 100px;
+            color: #C47949;
+
     }
     
     .btn-mob a {

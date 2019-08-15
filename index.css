@@ -17,10 +17,9 @@ html,body {
 }
 
 body {
-  position: relative;
-  margin: 0;
-  min-height: 100%;
-background-color:#f1ebde;
+    margin: 0;
+    min-height: 100%;
+    background-color:#f1ebde;
 }
 
 * {cursor: url('liv-cursor.png'), default;}
@@ -28,11 +27,22 @@ background-color:#f1ebde;
 
 /********************** HEADER **********************/
 
+.header-mobile {
+    display: none;
+}
+
+.content-mobile {
+    display: none;
+}
+
+.nav {
+    display: none;
+}
+
 .head1 {
     position: fixed;
     padding: 20px 0px 20px 20px;
-    width: 48%;
-    float: left;
+    width: 100%;
     display: block;
     font-family: "Fivo Reg", sans-serif;
     font-size: 50px;
@@ -52,23 +62,24 @@ background-color:#f1ebde;
     transition: 1.5s ease;
 }
 
-.head2 {
-    position: fixed;
+.content {
     width: 50%;
     float: right;
     display: block;
     margin-left: 50%;
-    height: 300px;
     padding: 30px 20px 0px 0px;
     font-family: "NB akademie Reg", sans-serif;
-    font-size: 18px;
-    line-height: 130%;
+    font-size: 16px;
+    line-height: 20px;
     color: #C47949;
     z-index: 3;
+    position:absolute;
+scroll-snap-align: start;
 }
 
 .about, .contact {
-    text-decoration: underline;
+    text-decoration: ;
+    font-family: "NB akademie Bold", sans-serif;
     padding-bottom: 15px;
     pointer-events: none;
     float: left;
@@ -95,7 +106,7 @@ background-color:#f1ebde;
 }
 
 .description2 a:hover{
-    color: d8cab2;
+    color: #d8cab2;
     transition: 1.5s ease;
     cursor:pointer;
 }
@@ -108,32 +119,40 @@ background-color:#f1ebde;
   background: transparent;
 }
 
-
-/********************** IMAGE 1 **********************/
-
-.container {
-    width: 100%;
-    height: auto;
-    margin-top: 350px;
-    position: absolute;
-    display: inline-block;
-    z-index: 9;
-    background-color:#f1ebde;
-      scroll-snap-type: y mandatory;
-    overflow-y: scroll;
-}
+/********************** CONTAINER **********************/
 
 .container-mobile {
     display: none;
 }
 
-.wrapper1 {
+.container {
     width: 100%;
-    display: inline-block;
+    height: 100vh;
+    display: block;
+    margin-top: 0px;
+    background-color:;
+        overflow:scroll;
+        scroll-snap-type: mandatory;
+        scroll-snap-points-y: repeat(100vh);
+        scroll-snap-type: y mandatory;
+        scroll-snap-align: start;
     position: relative;
-  scroll-snap-align: start;
+    transform-style: preserve-3d;
 }
 
+
+/********************** IMAGE 1 **********************/
+
+
+.wrapper1 {
+    width: 100%;
+    margin-top: 260px;
+    display: inline-block;
+    position: relative;
+    background-color: ;
+scroll-snap-align: start;
+    z-index: 9;
+}
 
 .img1 {
     width: 50%;
@@ -156,7 +175,10 @@ background-color:#f1ebde;
 .overlay1:hover {
     opacity: 1;
     transition: 1.2s;
+    visibility: visible;
 }
+
+
 
 /********************** IMAGE 2 **********************/
 
@@ -165,9 +187,10 @@ background-color:#f1ebde;
     display: inline-block;
     position: relative;
     z-index: 9;
-  scroll-snap-align: start;
+background-color:#f1ebde;
+scroll-snap-align: start;
+  
 }
-
 
 .img2 {
     width: 50%;
@@ -200,9 +223,8 @@ background-color:#f1ebde;
     display: inline-block;
     position: relative;
     z-index: 9;
-  scroll-snap-align: start;
+scroll-snap-align: start;
 }
-
 
 .img3 {
     width: 50%;
@@ -235,10 +257,9 @@ background-color:#f1ebde;
     display: inline-block;
     position: relative;
     z-index: 9;
-    margin-bottom: 30px;
-  scroll-snap-align: start;
+    background-color:;
+scroll-snap-align: start;
 }
-
 
 .img4 {
     width: 50%;
@@ -263,6 +284,81 @@ background-color:#f1ebde;
     transition: 1.2s;
 }
 
+
+
+/********************** IMAGE 5 **********************/
+
+.wrapper5 {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    z-index: 9;
+scroll-snap-align: start;
+}
+
+
+.img5 {
+    width: 50%;
+    float: right;
+}
+
+.overlay5 {
+    width: 50%;
+    float: right;
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    transform: translate(100%, 0%);
+    opacity: 0;
+    transition: 2s;
+}
+
+.overlay5:hover {
+    opacity: 1;
+    transition: 1.2s;
+}
+
+
+
+/********************** IMAGE 6 **********************/
+
+.wrapper6 {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    z-index: 9;
+    margin-bottom: 10px;
+scroll-snap-align: start;
+}
+
+
+.img6 {
+    width: 50%;
+    float: left;
+}
+
+.overlay6 {
+    width: 50%;
+    float: left;
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    transform: translate(-100%, 0%);
+    opacity: 0;
+    transition: 2s;
+}
+
+.overlay6:hover {
+    opacity: 1;
+    transition: 1.2s;
+}
+
+
+
 /********************** FOOTER **********************/
 .credit {
     position: relative;
@@ -275,6 +371,7 @@ background-color:#f1ebde;
     pointer-events:auto;
     width: 500px;
     float: left;
+  scroll-snap-align: start;
 }
 
 .credit a{
@@ -308,6 +405,7 @@ background-color:#f1ebde;
     font-family: "NB Akademie Bold", sans-serif;
     font-size: 17px;   
     text-transform: uppercase;
+    display: none;
 }
 
 .btn a{
@@ -351,4 +449,3 @@ background-color:#f1ebde;
   font-family: 'NB Akademie Bold';
   src: url(fonts/nb_akademie_std_bold.ttf) format('truetype');
 }
-
