@@ -119,6 +119,8 @@ background-color:#f1ebde;
     display: inline-block;
     z-index: 9;
     background-color:#f1ebde;
+      scroll-snap-type: y mandatory;
+    overflow-y: scroll;
 }
 
 .container-mobile {
@@ -129,6 +131,7 @@ background-color:#f1ebde;
     width: 100%;
     display: inline-block;
     position: relative;
+  scroll-snap-align: start;
 }
 
 
@@ -162,6 +165,7 @@ background-color:#f1ebde;
     display: inline-block;
     position: relative;
     z-index: 9;
+  scroll-snap-align: start;
 }
 
 
@@ -196,6 +200,7 @@ background-color:#f1ebde;
     display: inline-block;
     position: relative;
     z-index: 9;
+  scroll-snap-align: start;
 }
 
 
@@ -231,6 +236,7 @@ background-color:#f1ebde;
     position: relative;
     z-index: 9;
     margin-bottom: 30px;
+  scroll-snap-align: start;
 }
 
 
