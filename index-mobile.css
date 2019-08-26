@@ -81,7 +81,7 @@ html,body {
         padding-top: 140px;
         background-color: #f1ebde;
         z-index: 0;
-        overflow: scroll;
+        overflow: ;
     scroll-behavior: smooth;
     }
     
