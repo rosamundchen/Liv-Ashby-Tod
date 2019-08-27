@@ -19,8 +19,10 @@ html,body {
     display: relative;
     position: fixed;
     width: 100%;
-    height: 78px;
+    height: 150px;
     background-color:;
+    z-index: 100;
+
 }
     
 .header-mobile {
@@ -75,28 +77,25 @@ html,body {
 /********************** IMAGES **********************/
 
 .container-mobile {
-        display:block;
+        display:inline-block;
         width: 100%;
-        margin-top: 0;
-        padding-top: 140px;
+        margin-top: 145px;
         background-color: #f1ebde;
-        z-index: 0;
-        overflow: ;
-    scroll-behavior: smooth;
+        z-index: 2;
+    position: relative;
+    background-color:;
     }
     
     .image-wrapper {
         width: 100%;
         height: 100%;
-        padding-bottom: 20px;
         background-color: #f1ebde;
-    scroll-behavior: smooth;
     }
 
 .photo1, .photo2, .photo3, .photo4, .photo5, .photo6 {
-        width: 87%;
-        padding: 20px;
-    scroll-behavior: smooth;
+        width: 100%;
+        padding-bottom: 20px;
+
 }
     
     
@@ -155,6 +154,7 @@ html,body {
 .footer-mobile {
     padding: 20px 20px 20px 20px;
     height: 20px;
+    margin-bottom: 20px;
     width: 92%;
     display: block;
     background-color: #f1ebde;
