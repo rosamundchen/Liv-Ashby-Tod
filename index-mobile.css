@@ -10,177 +10,72 @@ html,body {
 }
     
 /********************** HEADER **********************/
-
-.head1, .container, .credit, .btn {
-    display: none;
-}
     
-.header-wrapper {
-    display: relative;
-    position: fixed;
-    width: 100%;
-    height: 150px;
-    background-color:;
-    z-index: 100;
-
-}
-    
-.header-mobile {
-    display: block;
-    padding: 20px 20px 20px 20px;
-    z-index: 100;
-    position: fixed;
-    font-family: "Fivo Reg", sans-serif;
-    font-size: 35px;
-    font-weight: 100;
-    text-transform: uppercase;
+    .wrapper1, .wrapper2, .wrapper3, .wrapper4, .wrapper5, .wrapper6 {
+        display: none;
     }
     
-.header-mobile a {
-    color: #C47949;  
-    text-decoration: none;
-}
-    
-.nav {
-    width: 91.5%;
-    height: auto;
-    display: block;
-    float: right;
-    padding: 20px 20px 20px 20px;
-    position: fixed;
-    display: block;
-    z-index: 100;
-    }
-
-
-.nav a {
-    text-decoration: underline;
-    color: #C47949;
-}
-
-    
-    .about-nav {
-        font-family: "NB akademie Reg", sans-serif;
-        font-size: 25px;
-        color: #C47949; 
-        float: right;
+    .credit {
+        display: none;
     }
     
-    .contact-nav {
-        font-family: "NB akademie Reg", sans-serif;
-        font-size: 20px;
-        color: #C47949; 
-        float: right;
+    .head1 {
+        font-size: 42px;
     }
     
-
-/********************** IMAGES **********************/
-
-.container-mobile {
-        display:inline-block;
+    .container{
         width: 100%;
-        margin-top: 145px;
-        background-color: #f1ebde;
-        z-index: 2;
-    position: relative;
-    background-color:;
+        height: 
+        float: right;
+        position: absolute;
+        z-index: 10;
     }
     
-    .image-wrapper {
+    #about, .contact {
+        font-size: 15px;
+    }
+    
+    
+    .description1, .description2 {
         width: 100%;
-        height: 100%;
+        font-size: 15px;
+    }
+    
+    
+    .container-mobile {
+        display: block;
+        position: absolute;
+        bottom: 20;
+        top: 380px;
+        z-index: 70;
         background-color: #f1ebde;
     }
-
-.photo1, .photo2, .photo3, .photo4, .photo5, .photo6 {
-        width: 100%;
-        padding-bottom: 20px;
-
-}
     
     
-    
-    
-    
-/********************** ABOUT SECTION **********************/
-
-.content-mobile {
-    display: block;
-    position: relative;
-    width:92%;
-    float: left;
-    margin-top: 10px;
-    padding: 5px 20px 50px 20px;
-    font-size: 15.5px;
-    top: 0px;
-    font-family: "NB akademie Reg", sans-serif;
-    font-size: 15px;
-    line-height: 19px;
-    color: #C47949;
+    #box1, .box2, .box3, .box4, .box5 {
+        padding-bottom: 15px;
     }
     
-#about-mobile {
-    float: left;
-    width: 20%;
-    font-family: "NB akademie Bold", sans-serif;
+    
+    .footer-mobile {
+        display: block;
+        padding: 60px 20px 20px 20px;
+        height: 30px;
+        position: absolute;
+        z-index: 90;
     }
     
-#contact-mobile {
-    float: left;
-    width: 20%;
-    padding-top: 30px;
-    font-family: "NB akademie Bold", sans-serif;
-}
-    
-.description1-mobile {
-    width:80%;
-    float: inherit;
-    }
-    
-.description2-mobile {
-    width:80%;
-    float: inherit;
-    padding-top: 30px;
-}
-    
-.description2-mobile a {
-    text-decoration: none;
-    color: #C47949;
-}
-    
-    
-/********************** FOOTER **********************/
-    
-.footer-mobile {
-    padding: 20px 20px 20px 20px;
-    height: 20px;
-    margin-bottom: 20px;
-    width: 92%;
-    display: block;
-    background-color: #f1ebde;
-    position: relative;
-    bottom: 0;
-    float:left;
-    border-top: 0px solid;
-    z-index: 100;
-}
-
-.credit-mob {
-    display: block;
-    font-family: 'NB Akademie Reg', sans-serif;
-    font-size: 11.5px;
-    line-height: 16px;
-    padding-left:91px;
-    width: 48%;
-    float: left;
-    color: #C47949;
-
-    }
-    
-    .credit-mob a {
-        text-decoration: none;
+    .credit-mob {
+        display: block;
+        font-family: "NB Akademie Reg", sans-serif;
+        font-size: 12px;
         color: #C47949;
-        font-family: 'NB Akademie Bold', sans-serif;
+    }
+    
+    .credit-mob a{
+        color: #C47949;
+        text-decoration: none;
+        font-family: "NB Akademie Bold", sans-serif;
     }
     
     .credit-mob a:hover {
@@ -189,27 +84,9 @@ html,body {
     }
     
     .btn-mob {
-        display: block;
-        width: 14%;
-        height: 85%;
-        font-family: 'NB Akademie Bold', sans-serif;
-        font-size: 14px;
-        letter-spacing: 0.5px;
-        text-align: center;
-        padding: 8px;
-        float: right;
-        border: 1.5px solid;
-        border-radius: 50%;
-        color: #C47949;
+        position: fixed;
+    }
 
-    }
+
     
-    .btn-mob a {
-        text-transform: uppercase;
-        text-decoration: none;
-        color: #C47949;
-    }
     
-    .btn-mob a:hover {
-        cursor: url('liv-pointer.png'), pointer;
-    }

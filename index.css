@@ -27,7 +27,7 @@ body {
 
 /********************** HEADER **********************/
 
-.header-mobile, .content-mobile, .nav, .container-mobile, .credit-mob, .btn-mob {
+.header-mobile, .content-mobile, .nav, .container-mobile, .credit-mob, .btn-mob, .footer-mobile {
     display: none;
 }
 
